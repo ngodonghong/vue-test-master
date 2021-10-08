@@ -1,0 +1,23 @@
+{
+  "name": "vue-test",
+  "version": "1.0.0",
+  "description": "VUEJS Test",
+  "author": "Mathieu BERNARD",
+  "scripts": {
+    "start:server": "node_modules/http-server/bin/http-server ./ --cors 'Access-Control-Allow-Origin'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/bocasay/vue-test/issues"
+  },
+  "homepage": "https://gitlab.com/bocasay/vue-test#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bocasay/vue-test.git"
+  }
+}
